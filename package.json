@@ -1,0 +1,25 @@
+{
+  "name": "weebly-posts-backup-tool",
+  "version": "0.0.1",
+  "repository": "https://github.com/charlieworld/weebly-posts-backup-tool",
+  "author": "Charlieeeeee",
+  "license": "MIT",
+  "scripts": {
+    "start": "eslint ./src;node ./src/index.js",
+    "eslint": "eslint ./src",
+    "eslint-init": "eslint --init"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "luxon": "^1.22.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "type": "module"
+}
